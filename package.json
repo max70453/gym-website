@@ -1,7 +1,7 @@
 {
-  "name": "webpack-template",
+  "name": "gym",
   "version": "1.0.0",
-  "description": "",
+  "description": "gym-landing",
   "main": "index.js",
   "scripts": {
     "start": "set NODE_ENV=development&&webpack serve --open",

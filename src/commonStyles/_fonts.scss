@@ -1,26 +1,93 @@
-// @font-face{
-//   font-family: 'OpenSans-Regular';
-//   src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
-//   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-// }
+@font-face{
+  font-family: 'Raleway-Regular';
+  src: url("../fonts/raleway/Raleway-Regular.woff2") format("woff2");
+}
 
-// @font-face {
-//   font-family: 'OpenSans-Light';
-//   src: url("../fonts/OpenSans-Light.ttf") format("truetype");
-//   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-// }
+@font-face{
+  font-family: 'Raleway-Medium';
+  src: url("../fonts/raleway/Raleway-Medium.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
 
-// @font-face {
-//   font-family: 'OpenSans-SemiBold';
-//   src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
-//   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-// }
+@font-face{
+  font-family: 'Raleway-Bold';
+  src: url("../fonts/raleway/Raleway-Bold.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
 
-// @font-face {
-//   font-family: 'OpenSans-Bold';
-//   src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
-//   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-// }
+@font-face{
+  font-family: 'Raleway-SemiBold';
+  src: url("../fonts/raleway/Raleway-SemiBold.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face{
+  font-family: 'Raleway-ExtraBold';
+  src: url("../fonts/raleway/Raleway-ExtraBold.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face{
+  font-family: 'Raleway-Light';
+  src: url("../fonts/raleway/Raleway-Light.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+// ----------------------------------------------------------------------------------------------
+
+@font-face{
+  font-family: 'PTSans-Regular';
+  src: url("../fonts/ptsans/PTSans-Regular.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+// --------------------------------------------------------------------------------------------------
+
+@font-face{
+  font-family: 'Poppins-Medium';
+  src: url("../fonts/poppins/Poppins-Medium.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+// -----------------------------------------------------------------------------------------------------
+
+
+@font-face{
+  font-family: 'OpenSans-Regular';
+  src: url("../fonts/openSans/OpenSans-Regular.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, 
+  U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face{
+  font-family: 'OpenSans-SemiBold';
+  src: url("../fonts/openSans/OpenSans-SemiBold.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+// ----------------------------------------------------------------------
+
+@font-face{
+  font-family: 'Montserrat-Bold';
+  src: url("../fonts/montserat/Montserrat-Bold.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face{
+  font-family: 'Montserrat-SemiBold';
+  src: url("../fonts/montserat/Montserrat-SemiBold.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face{
+  font-family: 'Montserrat-ExtraLight';
+  src: url("../fonts/montserat/Montserrat-ExtraLight.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+// ----------------------------------------------------------------------------------------
+
+
 
 // @font-face {
 //   font-family: 'Roboto-Bold';
