@@ -1,1 +1,26 @@
-h1 header section
+- var navMenuLeft = [
+- {link: 'home', href: '#welcome'},
+- {link: 'features', href: '#features'},
+- {link: 'services', href: '#services'}
+- ];
+- var navMenuRight = [
+- {link: 'about', href: '#about'},
+- {link: 'testimonials', href: '#testimonials'},
+- {link: 'contact', href: '#contact'}
+- ];
+
+section.header
+  .container
+    nav.header__nav
+      .header__nav-left
+        each val in navMenuLeft
+          a(href=val.href).header__nav-link= val.link + ' '
+      .header__logo
+        img(src=require('../images/' + "logo.png"), alt="logotype").header__logo-img
+      .header__nav-right
+        each val in navMenuRight
+          a(href=val.href).header__nav-link= val.link + ' '
+    .header__wrap-title
+      h2.header__subtitle I do this to get
+      h1.header__title big muscles
+      h2.header__prev previous/next
